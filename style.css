@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background: #000;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+}
+.header.logo{
+    width: 120px;
+}
+img{
+    width: 110px;
+}
+
+.menu{}
+.menu ul{
+  display: flex;
+  margin-bottom: 0;
+  position: relative;
+   
+}
+.menu ul li{
+    list-style: none;   
+}
+
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    
+}
+
+.banner-section{
+    padding: 50px;
+}
+
+.banner-left{
+    width: 80%;
+}
+.banner-top{
+    display: flex;
+}
+
+.div1{
+    width: 337px;
+    height: 250px;
+    border: 1px solid green;
+    margin-left: 20px;
+}
+
+.div2{
+    width: 337px;
+    height: 250px;
+    border: 1px solid green;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.div3{
+    width: 337px;
+    height: 250px;
+    border: 1px solid green;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.banner-top p{
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.banner-center{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+}
+
+.line1{
+    width: 250px;
+    height: 200px;
+    border: 1px solid green;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.line2{
+    width: 250px;
+    height: 200px;
+    border: 1px solid green;
+    margin-left: 20px;
+    padding: 10px;
+    align-self: auto;
+    flex-grow: 1;
+}
+.line2:nth-child(1) {}
+.line2:nth-child(2) {flex-grow:5;}
+.line2:nth-child(3){}
+
+.line3{
+    width: 250px;
+    height: 200px;
+    border: 1px solid green;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.banner-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.div-1{
+    width: 335px;
+    height: 250px;
+    border: 1px solid green;
+    margin-left: 20px;
+    padding: 10px;
+}
+.div-1 p{
+    width: 40px;
+    height: 40px;
+    border: 1px solid green;
+    background:red;
+    color: #fff;
+    justify-content: space-around;
+    
+}
+
+.div-2{
+    width: 335px;
+    height: 250px;
+    border: 1px solid green;
+    margin-left: 20px;
+    padding: 10px;
+}
+.div-2 p{}
+
+.div-3{
+    width: 335px;
+    height: 250px;
+    border: 1px solid green;
+    margin-left: 20px;
+    padding: 10px;
+}
+.div-3 p{}
