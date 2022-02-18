@@ -33,11 +33,11 @@ img{
     text-decoration: none;
     margin-left: 20px;
     color: #fff;
-    border-bottom: 1px solid #fff;
-    
+    border-bottom: 1px solid #fff;   
 }
 
 .banner-section{
+    display: flex;
     padding: 50px;
 }
 
@@ -63,7 +63,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+}
 
 .div3{
     width: 337px;
@@ -80,14 +80,11 @@ img{
     height: 50px;
     background: red;
 }
-
 .banner-center{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    
+    margin-top: 20px;   
 }
-
 .line1{
     width: 250px;
     height: 200px;
@@ -95,7 +92,6 @@ img{
     margin-left: 20px;
     padding: 10px;
 }
-
 .line2{
     width: 250px;
     height: 200px;
@@ -105,10 +101,7 @@ img{
     align-self: auto;
     flex-grow: 1;
 }
-.line2:nth-child(1) {}
 .line2:nth-child(2) {flex-grow:5;}
-.line2:nth-child(3){}
-
 .line3{
     width: 250px;
     height: 200px;
@@ -120,9 +113,7 @@ img{
 .banner-bottom{
     display: flex;
     margin-top: 20px;
-    align-items: flex-start;
-   
-    
+    align-items: flex-start;   
 }
 .div-1{
     display: flex;
@@ -133,18 +124,14 @@ img{
     height: 250px;
     border: 1px solid green;
     margin-left: 20px;
-    padding: 10px;
-    
-    
+    padding: 10px;   
 }
 .div-1 .sub-div{
     width: 30px;
     height: 30px;
     border: 1px solid green;
     background:red;
-    color: #fff;
-   
-    
+    color: #fff;   
 }
 
 .div-2{
@@ -163,9 +150,7 @@ img{
     height: 30px;
     border: 1px solid green;
     background:red;
-    color: #fff;
-   
-    
+    color: #fff;   
 }
 
 .div-3{
@@ -184,38 +169,38 @@ img{
     height: 30px;
     border: 1px solid green;
     background:red;
-    color: #fff;
-   
-    
+    color: #fff;   
 }
+.box2{
+    align-items: center;
+}
+.box3{}
 
 .banner-right{
     display: flex;
     width: 20%;
+    margin-left: 30px;
+    border-left: 2px solid red;
+    background: #d2d2d2;
 }
-
+.right-items{
+    padding:20px;
+}
 
 .footer-section{
     background: #000;
     padding: 20px;
-
 }
-
 .footer{}
 
 .footer ul{
     display: flex;
-    justify-content: center;
-  
-    
+    justify-content: center;   
 }
-
 .footer ul li{
     list-style: none;
     margin-left: 20px;
     color: #fff;
     display: inline-block;
     border-bottom: 1px solid #fff;
-    
-
 }
